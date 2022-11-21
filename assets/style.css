@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(150, 150, 150);
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+nav .navbar_logo h1 {
+  font-size: 34px;
+}
+nav .navbar_menu ul {
+  display: flex;
+}
+nav .navbar_menu ul li {
+  margin-top: 22px;
+  margin-left: 35px;
+  list-style: none;
+}
+nav .navbar_menu ul li a {
+  color: #212529;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3;
+}
+nav .navbar_menu ul li:hover a {
+  color: red;
+}
+nav .navbar_cart {
+  margin-top: 10px;
+}
+nav .navbar_cart p {
+  margin-left: 650px;
+}
+nav .navbar_cart p button {
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+}
+
+main .shop {
+  background-color: #212529;
+  width: 100%;
+  height: 250px;
+}
+main .shop .shop_text {
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+}
+main .shop h2 {
+  font-size: 60px;
+}
+main .shop p {
+  font-size: 25px;
+  color: gray;
+}
+main .card {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+main .card .card_inner {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+main .card .card_inner .card_inner_img img {
+  width: 270px;
+  height: 180px;
+  margin-bottom: 25px;
+  border-start-start-radius: 15px;
+  border-start-end-radius: 15px;
+}
+main .card .card_inner p {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+main .card .card_inner button {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 10px 5px 5px;
+  border: 1px solid #212529;
+  background-color: #fff;
+  transition: 0.3s;
+}
+main .card .card_inner button:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+footer {
+  background-color: #212529;
+  width: 100%;
+  height: 150px;
+}
+footer .Copyright_inner p {
+  padding-top: 70px;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

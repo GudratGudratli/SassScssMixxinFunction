@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(150, 150, 150);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+
+    .navbar_logo {
+        h1 {
+            font-size: 34px;
+        }
+    }
+
+    .navbar_menu {
+        ul {
+            display: flex;
+
+            li {
+                margin-top: 22px;
+                margin-left: 35px;
+                list-style: none;
+
+                a {
+                    color: #212529;
+                    font-size: 22px;
+                    text-decoration: none;
+                    transition: 0.3;
+                }
+            }
+
+            li:hover {
+                a {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .navbar_cart {
+        margin-top: 10px;
+
+        p {
+            margin-left: 650px;
+
+            button {
+                width: 150px;
+                height: 30px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+main {
+    .shop {
+        background-color: #212529;
+        width: 100%;
+        height: 250px;
+
+        .shop_text {
+            text-align: center;
+            color: #fff;
+            padding-top: 80px;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 25px;
+            color: gray;
+        }
+    }
+
+    .card {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        .card_inner {
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid gray;
+            border-radius: 15px;
+            text-align: center;
+            align-items: center;
+            margin-top: 30px;
+
+            .card_inner_img {
+                img {
+                    width: 270px;
+                    height: 180px;
+                    margin-bottom: 25px;
+                    border-start-start-radius: 15px;
+                    border-start-end-radius: 15px;
+                }
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 50px;
+            }
+
+            button {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 20px;
+                padding: 10px 10px 5px 5px;
+                border: 1px solid #212529;
+                background-color: #fff;
+                transition: 0.3s;
+            }
+
+            button:hover {
+                background-color: #212529;
+                color: #fff;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #212529;
+    width: 100%;
+    height: 150px;
+
+    .Copyright_inner {
+        p {
+            padding-top: 70px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
